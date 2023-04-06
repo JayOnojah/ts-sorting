@@ -1,1 +1,1 @@
-# ts-sorting
+# A Sorting Algorithm in TypeScript
