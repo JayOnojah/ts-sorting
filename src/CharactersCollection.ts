@@ -11,8 +11,7 @@ export class CharactersCollection extends Sorter {
 
   compare(leftIndex: number, rightIndex: number): boolean {
     return (
-      this.data[leftIndex].toLowerCase() >
-      this.data[rightIndex].toLocaleLowerCase()
+      this.data[leftIndex].toLowerCase() > this.data[rightIndex].toLowerCase()
     );
   }
 
