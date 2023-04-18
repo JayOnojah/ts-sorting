@@ -18,6 +18,7 @@ export class LinkedList extends Sorter {
     }
 
     let tail = this.head;
+
     while (tail.next) {
       tail = tail.next;
     }
@@ -32,6 +33,7 @@ export class LinkedList extends Sorter {
 
     let length = 1;
     let node = this.head;
+
     while (node.next) {
       length++;
       node = node.next;
@@ -47,6 +49,7 @@ export class LinkedList extends Sorter {
 
     let counter = 0;
     let node: Node | null = this.head;
+
     while (node) {
       if (counter === index) {
         return node;
@@ -82,6 +85,7 @@ export class LinkedList extends Sorter {
     }
 
     let node: Node | null = this.head;
+
     while (node) {
       console.log(node.data);
       node = node.next;
